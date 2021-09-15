@@ -1,0 +1,61 @@
+{
+  "name": "mojahid-to-do",
+  "version": "1.0.0",
+  "description": "girmairi practice full stack project",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://islamshaheb@bitbucket.org/foyob/mojahid-to-do.git"
+  },
+  "keywords": [
+    "crud"
+  ],
+  "author": "Mojahid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/foyob/mojahid-to-do/issues"
+  },
+  "homepage": "https://bitbucket.org/foyob/mojahid-to-do#readme",
+  "dependencies": {
+    "advanced-type-tests": "^1.0.3",
+    "axios": "^0.21.3",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.4",
+    "nanoid": "^3.1.22",
+    "pino": "^6.11.3",
+    "pino-pretty": "^4.7.1",
+    "typescript": "^4.4.2",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.1",
+    "@types/body-parser": "^1.19.0",
+    "@types/config": "^0.0.38",
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/lodash": "^4.14.168",
+    "@types/mongoose": "^5.10.5",
+    "@types/nanoid": "^2.1.0",
+    "@types/node": "^16.7.10",
+    "@types/pino": "^6.3.8",
+    "@types/yup": "^0.29.11",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescipt": "^1.0.0",
+    "typescript": "^4.2.4"
+  }
+}
